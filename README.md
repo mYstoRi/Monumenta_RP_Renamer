@@ -63,7 +63,7 @@ Rules:
 		4. (optional - leather armor) `Converted_Name_layer_2_overlay.png` override armor texture for leggings. (non dyeable part leather)
 		5. `Converted_Name_armor.properties` armor properties.
 	3. extra rules:
-			If there are overlapping item names, add part info like "helmet", "leggings" behind `Converted_Name`.
+			If there are overlapping item names, add part info like "helmet", "leggings" after `Converted_Name`.
 
 6. potions (potion, splash_potion, lingering_potion) (WIP)
 	1. `potion.png` base texture.
