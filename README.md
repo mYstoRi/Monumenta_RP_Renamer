@@ -19,6 +19,14 @@ Rules:
 - Every `.png` files can have an animation file with `.mcmeta` after its `.png`.
 	- Ex. `Converted_Name.png.mcmeta`
 
+- The way to add replica:
+	1. in the same folder as the non-replica:
+ 		- duplicate all properties and change the plain text to `Replica Name`.
+   		- Those properties would have a prefix `replica_` adding to their filename.
+	2. in a different folder:
+		- same as above, but in a different folder.
+  		- note that the texture file names would not have `replica_`. properties are the only difference.
+
 1. General Rule:
 	1. `Converted_Name.png` base texture.
 	2. `Converted_Name.properties` properties file.
