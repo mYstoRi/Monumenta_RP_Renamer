@@ -3,13 +3,22 @@ Renaming standards and conversions of the current resource pack.
 
 # File Naming Rules
 
+### Rules that might need more discussing
+1. Replica item files always come without `replica_`, as most of those are in the same folder as the original item.
+2. Bows' and crossbows' idle texture is named without `_standby`
+3. Armor icon files have `_icon` and armor models have `_armor`
+4. set armor extra rule: if some of the set items have the exact same plain text, the name would add additional `_[part]` (see t5 scout set)
+
 ### File-Style renaming
 This will convert names into only using `a-z`, `0-9` and `_`.
 Refer to the converted name as `Converted_Name` and the non-converted as `Name`.
 
 Rules:
-1. `(space)` or `-` -> `_`
-2. `'`, `$` or other signs -> nothing
+1. `a-z`, `0-9`, `_` -> unchanged
+2. capital letters -> lowercase letters
+3.  `(space)` or `-` -> `_`
+4. `'`, `$` or other signs -> nothing
+5. can only have 1 consecutive `_`. The rest of them get ignored.
 
 ### In-Folder Format:
 
@@ -93,7 +102,7 @@ Rules:
 	No specific rules. (!!)
 
 
-### Folder Naming Scheme:
+### Folder Naming Scheme: (WIP)
 1. general rule: follow the plain.display.Name nbt tag of the item, converted.
 2. cooldown consumables: ignore the cooldown files and follow the general rule.
 3. set armor (tiered, uncommon, gallery armor sets): ignore any phrases that specify it's part like `helm`, `chestplate`, `greaves`, etc.
