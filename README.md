@@ -78,8 +78,8 @@ Rules:
 	1. `converted_name.png` base texture.
 	2. `converted_name.properties` properties file.
 	3. `converted_name_overlay.png` potion overlay file. Often empty.
-	4. (optional)`potion_cooldown.png` cooldown texture.
-	5. (optional)`converted_name_cooldown.properties` properties file.
+	4. (optional)`converted_name_cooldown.png` cooldown texture.
+	5. (optional)`converted_name_cooldown.properties` properties file. Often not potion.
 	6. `converted_name.json` model file (in model folder: `optifine/cit/source_models/potions/`).
 
 7. Shields (WIP)
