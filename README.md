@@ -75,12 +75,12 @@ Rules:
 			If there are overlapping item names, add part info like "helmet", "leggings" after `converted_name`. (see r1 t5 scout set)
 
 6. potions (potion, splash_potion, lingering_potion) (WIP)
-	1. `potion.png` base texture.
+	1. `converted_name.png` base texture.
 	2. `converted_name.properties` properties file.
-	3. `potion_overlay.png` potion overlay file. Often empty.
+	3. `converted_name_overlay.png` potion overlay file. Often empty.
 	4. (optional)`potion_cooldown.png` cooldown texture.
 	5. (optional)`converted_name_cooldown.properties` properties file.
-	6. (in model folder)`converted_name.json` model file.
+	6. `converted_name.json` model file (in model folder: `optifine/cit/source_models/potions/`).
 
 7. Shields (WIP)
 	1. `converted_name.png` idle texture.
