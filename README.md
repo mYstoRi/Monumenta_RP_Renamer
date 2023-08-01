@@ -11,7 +11,7 @@ Renaming standards and conversions of the current resource pack.
 
 ### File-Style renaming
 This will convert names into only using `a-z`, `0-9` and `_`.
-Refer to the converted name as `Converted_Name` and the non-converted as `Name`.
+Refer to the converted name as `converted_name` and the non-converted as `Name`.
 
 Rules:
 1. `a-z`, `0-9`, `_` -> unchanged
@@ -23,10 +23,10 @@ Rules:
 ### In-Folder Format:
 
 - Every non-emissive `.png` files can have emissive file with `_e` appended right before `.png`.
-	- Ex. `Converted_Name_e.png`
+	- Ex. `converted_name_e.png`
 
 - Every `.png` files can have an animation file with `.mcmeta` after its `.png`.
-	- Ex. `Converted_Name.png.mcmeta`
+	- Ex. `converted_name.png.mcmeta`
 
 - The way to add replica:
 	1. in the same folder as the non-replica:
@@ -37,66 +37,66 @@ Rules:
   		- note that the texture file names would not have `replica_`. properties are the only difference.
 
 1. General Rule:
-	1. `Converted_Name.png` base texture.
-	2. `Converted_Name.properties` properties file.
+	1. `converted_name.png` base texture.
+	2. `converted_name.properties` properties file.
 
 2. Bows
-	1. `Converted_Name.png` standby base texture.
-	2. `Converted_Name_pulling_x.png` pulling texture. `x` can be 0, 1, 2, 3 or 4.
-	3. `Converted_Name.properties` properties file.
+	1. `converted_name.png` standby base texture.
+	2. `converted_name_pulling_x.png` pulling texture. `x` can be 0, 1, 2, 3 or 4.
+	3. `converted_name.properties` properties file.
 
 3. Crossbows
-	1. `Converted_Name.png` standby base texture.
-	2. `Converted_Name_pulling_x.png` pulling texture. `x` can be 0, 1 or 2.
-	3. `Converted_Name_arrow.png` loaded with arrow texture.
-	4. `Converted_Name_firework.png` loaded with firework texture.
-	5. `Converted_Name.properties` properties file.
+	1. `converted_name.png` standby base texture.
+	2. `converted_name_pulling_x.png` pulling texture. `x` can be 0, 1 or 2.
+	3. `converted_name_arrow.png` loaded with arrow texture.
+	4. `converted_name_firework.png` loaded with firework texture.
+	5. `converted_name.properties` properties file.
 
 4. Armor (non-set armor)
-	1. `Converted_Name_icon.png` base icon texture. (non leather / dyeable part leather)
-	2. (optional - leather armor) `Converted_Name_icon_overlay.png` override icon texture. (non dyeable part leather)
-	3. `Converted_Name_armor.png` base armor texture. (non leather / dyeable part leather)
-	4. (optional - leather armor) `Converted_Name_armor_overlay.png` override armor texture. (non dyeable part leather)
-	5. `Converted_Name_icon.properties` icon properties.
-	6. `Converted_Name_armor.properties` armor properties.
+	1. `converted_name_icon.png` base icon texture. (non leather / dyeable part leather)
+	2. (optional - leather armor) `converted_name_icon_overlay.png` override icon texture. (non dyeable part leather)
+	3. `converted_name_armor.png` base armor texture. (non leather / dyeable part leather)
+	4. (optional - leather armor) `converted_name_armor_overlay.png` override armor texture. (non dyeable part leather)
+	5. `converted_name_icon.properties` icon properties.
+	6. `converted_name_armor.properties` armor properties.
 
 5. Armor (set armor)
 	1. icons (folder)
-		1. `Converted_Name_icon.png` base icon texture. (non leather / dyeable part leather)
-		2. (optional - leather armor) `Converted_Name_icon_overlay.png` override icon texture. (non dyeable part leather)
-		3. `Converted_Name_icon.properties` icon properties.
+		1. `converted_name_icon.png` base icon texture. (non leather / dyeable part leather)
+		2. (optional - leather armor) `converted_name_icon_overlay.png` override icon texture. (non dyeable part leather)
+		3. `converted_name_icon.properties` icon properties.
 	2. armor (folder)
-		1. `Converted_Name_layer_1.png` base armor texture for helmet, chestplate and boots. (non leather / dyeable part leather)
-		2. (optional - leather armor) `Converted_Name_layer_1_overlay.png` override armor texture for helmet, chestplate and boots. (non dyeable part leather)
-		3. `Converted_Name_layer_2.png` base armor texture for leggings. (non leather / dyeable part leather)
-		4. (optional - leather armor) `Converted_Name_layer_2_overlay.png` override armor texture for leggings. (non dyeable part leather)
-		5. `Converted_Name_armor.properties` armor properties.
+		1. `converted_name_layer_1.png` base armor texture for helmet, chestplate and boots. (non leather / dyeable part leather)
+		2. (optional - leather armor) `converted_name_layer_1_overlay.png` override armor texture for helmet, chestplate and boots. (non dyeable part leather)
+		3. `converted_name_layer_2.png` base armor texture for leggings. (non leather / dyeable part leather)
+		4. (optional - leather armor) `converted_name_layer_2_overlay.png` override armor texture for leggings. (non dyeable part leather)
+		5. `converted_name_armor.properties` armor properties.
 	3. extra rules:
-			If there are overlapping item names, add part info like "helmet", "leggings" after `Converted_Name`. (see r1 t5 scout set)
+			If there are overlapping item names, add part info like "helmet", "leggings" after `converted_name`. (see r1 t5 scout set)
 
 6. potions (potion, splash_potion, lingering_potion) (WIP)
 	1. `potion.png` base texture.
-	2. `Converted_Name.properties` properties file.
+	2. `converted_name.properties` properties file.
 	3. `potion_overlay.png` potion overlay file. Often empty.
 	4. (optional)`potion_cooldown.png` cooldown texture.
-	5. (optional)`Converted_Name_cooldown.properties` properties file.
-	6. (in model folder)`Converted_Name.json` model file.
+	5. (optional)`converted_name_cooldown.properties` properties file.
+	6. (in model folder)`converted_name.json` model file.
 
 7. Shields (WIP)
-	1. `Converted_Name.png` idle texture.
-	2. `Converted_Name_blocking.png` blocking texture.
-	3. `Converted_Name.properties` idle properties.
-	4. `Converted_Name_blocking.properties` blocking properties.
+	1. `converted_name.png` idle texture.
+	2. `converted_name_blocking.png` blocking texture.
+	3. `converted_name.properties` idle properties.
+	4. `converted_name_blocking.properties` blocking properties.
 
 8. Alchemist Utensils (WIP)
-	1. `Converted_Name_Y.png` image of different pots inside. `Y` can be:
+	1. `converted_name_Y.png` image of different pots inside. `Y` can be:
 		1. `empty`
 		2. `quarter`
 		3. `half`
 		4. `three_quarter`
 		5. `full`
-	2. `Converted_Name_X.properties` properties of different pots inside. `X` can be `0,1,...,12`.
-	3. `Converted_Name_overlay.png` empty overlay
+	2. `converted_name_X.properties` properties of different pots inside. `X` can be `0,1,...,12`.
+	3. `converted_name_overlay.png` empty overlay
 
 9. Custom Non-Template Models (WIP)
 	No specific rules. (!!)
