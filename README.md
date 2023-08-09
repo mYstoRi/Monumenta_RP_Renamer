@@ -8,7 +8,6 @@ Renaming standards and conversions of the current resource pack.
 2. Bows' and crossbows' idle texture is named without `_standby`
 3. Armor icon files have `_icon` and armor models have `_armor`
 4. set armor extra rule: if some of the set items have the exact same plain text, the name would add additional `_[part]` (see t5 scout set)
-5. popular non-English letters like `é` -> `e`
 
 ### File-Style renaming
 This will convert names into only using `a-z`, `0-9` and `_`.
@@ -17,9 +16,10 @@ Refer to the converted name as `converted_name` and the non-converted as `Name`.
 Rules:
 1. `a-z`, `0-9`, `_` -> unchanged
 2. capital letters -> lowercase letters
-3.  `(space)` or `-` -> `_`
-4. `'`, `$` or other signs -> nothing
-5. can only have 1 consecutive `_`. The rest of them get ignored.
+3. `(space)` or `-` -> `_`
+4. `é` -> `e`
+5. `'`, `$` or other signs -> nothing
+6. can only have 1 consecutive `_`. The rest of them get ignored.
 
 ### In-Folder Format:
 
