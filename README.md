@@ -1,6 +1,9 @@
 # Monumenta_RP_Renamer
 Renaming standards and conversions of the current resource pack.
 
+user pack link (file larger than 25MB sob)
+https://drive.google.com/drive/folders/1evQ-97FzxabIjdaB4c9_zt329TuD2S7J?usp=sharing
+
 # File Naming Rules
 
 ### Rules that might need more discussing
