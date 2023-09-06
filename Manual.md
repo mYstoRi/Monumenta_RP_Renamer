@@ -23,6 +23,8 @@ Extra technical information:
 - The files that are generated will be put in a folder called `generated` under selected destination directory.
 - If the original pack is selected as the destination, the program will, instead of copying the pack over, change the pack directly. It helps saving the copying time. **Please make sure you have a backup before doing so.** The zipped files and log will not be put in a `generated` folder in this case.
 
+https://imgur.com/a/SpxsnlL
+
 ---
 
 The program does not cover everything that need to be renamed. Things might need to be manually fixed. Some cases are not worth fixing because there are too few of them that it is faster to fix manually.
