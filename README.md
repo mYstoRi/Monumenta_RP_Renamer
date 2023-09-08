@@ -1,5 +1,5 @@
 # Monumenta_RP_Renamer
-Renaming standards and conversions of the current resource pack.
+Renaming standards and conversions of the current resource pack. Make sure to read `Manual.md` for instructions! (TLDR see guide.png)
 
 user pack link (file larger than 25MB sob)
 https://drive.google.com/drive/folders/1evQ-97FzxabIjdaB4c9_zt329TuD2S7J?usp=sharing
@@ -22,7 +22,7 @@ Rules:
 3. `(space)` or `-` -> `_`
 4. `é` -> `e`
 5. `'`, `$` or other signs -> nothing
-6. can only have 1 consecutive `_`. The rest of them get ignored.
+6. can only have 1 consecutive `_`. The rest of them get ignored. (see skt key, it has "(space)-(space)")
 
 ### In-Folder Format:
 
