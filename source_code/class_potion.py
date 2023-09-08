@@ -70,11 +70,11 @@ class potion:
                 self.texture[i] = "potion"
                 if i == 0:
                     self.texture[i] += "_overlay"
-            if path + "/" + self.texture[i] + "_e.png" in src:
+            if self.texture[i] + "_e.png" in src:
                 self.has_e[i] = True
-            if path + "/" + self.texture[i] + ".png.mcmeta" in src:
+            if self.texture[i] + ".png.mcmeta" in src:
                 self.anim[i] = True
-            if path + "/" + self.texture[i] + "_e.png.mcmeta" in src:
+            if self.texture[i] + "_e.png.mcmeta" in src:
                 self.e_anim[i] = True
 
     def show(self):
