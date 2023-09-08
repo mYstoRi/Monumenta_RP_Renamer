@@ -62,9 +62,8 @@ def readfolder(path, settings):
             item_renamer = renamer(settings.log_path)
             item.rename(path, item_renamer)
             item_renamer.rename(settings)
-        # else:
-            # print(item)
-            # print("\n----")
+        else:
+            print("ignored directory: " + "/".join(path.split("/")[-4:]))
 
 
 def classify(path, settings):
@@ -136,7 +135,7 @@ def classify(path, settings):
         return bow(path)
     if is_crossbow:
         return crossbow(path)
-    if is_potion and not has_cd:
+    if is_potion and not has_cd and properties_count < 3:
         return potion(path, settings.selected_pack)
     if len(image_list) == 1 and properties_count == 1:
         if not custom_model:
