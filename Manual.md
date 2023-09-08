@@ -25,6 +25,7 @@ Extra technical information:
 - The files that are generated will be put in a folder called `generated` under selected destination directory.
 - If the original pack is selected as the destination, the program will, instead of copying the pack over, change the pack directly. It helps saving the copying time. **Please make sure you have a backup before doing so.** The zipped files and log will not be put in a `generated` folder in this case.
 - If you find something broken, you can DM me or ping me for them, but until it is fixed, you can also add folder names to the `ignore.txt` list, so the program will ignore said folder.
+- `pack_gen` folder is only there for your convenience. You can rename, use it however you want.
 
 ---
 
