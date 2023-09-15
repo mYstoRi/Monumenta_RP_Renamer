@@ -169,4 +169,5 @@ class bow:
                                  new_texture + "_pulling_" + str(i) + ".png.mcmeta")
 
                 if self.e_anim[ind]:
-                    renamer.print_rename(path + "/" + self.texture[ind] + "_e.png.mcmeta", new_texture + "_e.png.mcmeta")
+                    renamer.print_rename(path + "/" + self.texture[ind] + "_e.png.mcmeta",
+                                         new_texture + "_pulling_" + str(i) + "_e.png.mcmeta")
