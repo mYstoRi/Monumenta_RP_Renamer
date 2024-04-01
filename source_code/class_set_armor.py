@@ -166,8 +166,10 @@ class set_armor:
         # mixed folder (separate first)
         if self.opened_armor and self.opened_icon:
             # separate into folders
-            os.mkdir(path + "/icons")
-            os.mkdir(path + "/armor")
+            if "icons" not in os.listdir(path):
+                os.mkdir(path + "/icons")
+            if "armor" not in os.listdir(path):
+                os.mkdir(path + "/armor")
             isuffix = "/icons/"
             asuffix = "/armor/"
 
