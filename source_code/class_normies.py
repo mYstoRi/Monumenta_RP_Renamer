@@ -88,7 +88,9 @@ class normies:
 
         p = ""
 
-        p += "items=" + self.base + "\n"
+        p += "type=item\n"
+
+        p += "matchItems=" + self.base + "\n"
 
         if self.model != "None":
             p += "model=" + self.model + "\n"

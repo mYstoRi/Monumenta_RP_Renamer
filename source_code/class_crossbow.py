@@ -98,7 +98,9 @@ class crossbow:
 
         p = ""
 
-        p += "items=crossbow\n"
+        p += "type=item\n"
+
+        p += "matchItems=crossbow\n"
 
         if self.model != "None":
             p += "model=" + self.model + "\n"

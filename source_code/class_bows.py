@@ -103,7 +103,9 @@ class bow:
 
         p = ""
 
-        p += "items=bow\n"
+        p += "type=item"
+
+        p += "matchItems=bow\n"
 
         if self.model != "None":
             p += "model=" + self.model + "\n"

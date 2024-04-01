@@ -158,7 +158,9 @@ class armor:
 
         p = ""
 
-        p += "items=" + self.base + "\n"
+        p += "type=item\n"
+
+        p += "matchItems=" + self.base + "\n"
 
         if self.is_leather:
             p += "texture." + self.base + "=" + self.reduced_name + "_icon\n"
@@ -197,7 +199,7 @@ class armor:
 
         p += "type=armor\n"
 
-        p += "items=" + self.base + "\n"
+        p += "matchItems=" + self.base + "\n"
 
         l = 1 + ("leggings" in self.base)
         p += "texture." + self.material + "_layer_" + str(l) + "=" + self.reduced_name + "_armor\n"

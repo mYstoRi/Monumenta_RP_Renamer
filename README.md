@@ -11,8 +11,6 @@ https://drive.google.com/drive/folders/1evQ-97FzxabIjdaB4c9_zt329TuD2S7J?usp=sha
 2. Bows' and crossbows' idle texture is named without `_standby`
 3. Armor icon files have `_icon` and armor models have `_armor`
 4. set armor extra rule: if some of the set items have the exact same plain text, the name would add additional `_[part]` (see t5 scout set)
-5. Currently `type=item` will not be written (it is the default so don't need to), should it be written?
-6. Should we use `matchItems=` or `items=`?
 
 ### File-Style renaming
 This will convert names into only using `a-z`, `0-9` and `_`.
@@ -116,8 +114,8 @@ Rules:
 ### Properties:
 The rules of writing properties: (in order)
 
-1. properties type: `type=armor`, ignored if the type is `item`.
-2. base item: `items=BASE_ITEM`
+1. properties type: `type=armor`.
+2. base item: `matchItems=BASE_ITEM`
 3. model: `model=...`
 4. texture files: `texture=FILE` followed by `texture.(...)=FILE`
 5. plain text: `nbt.plain.display.Name=...`

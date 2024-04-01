@@ -193,7 +193,9 @@ class set_armor:
 
                 p = ""
 
-                p += "items=" + self.material + "_" + part + "\n"
+                p += "type=item\n"
+
+                p += "matchItems=" + self.material + "_" + part + "\n"
 
                 filename = self.reduced_name + '_' + self.reduced_suffix[pno] + "_icon"
 
@@ -268,7 +270,7 @@ class set_armor:
 
                 p += "type=armor\n"
 
-                p += "items=" + self.material + "_" + part + "\n"
+                p += "matchItems=" + self.material + "_" + part + "\n"
 
                 l = str(1 + (part == "leggings"))
                 if self.material == "golden":
