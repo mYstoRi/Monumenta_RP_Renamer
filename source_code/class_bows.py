@@ -103,7 +103,7 @@ class bow:
 
         p = ""
 
-        p += "type=item"
+        p += "type=item\n"
 
         p += "matchItems=bow\n"
 
