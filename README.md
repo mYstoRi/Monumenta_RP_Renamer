@@ -114,10 +114,21 @@ Rules:
 ### Properties:
 The rules of writing properties: (in order)
 
-1. properties type: `type=armor`.
+1. properties type: `type=armor`, `type=item`, etc.
 2. base item: `matchItems=BASE_ITEM`
 3. model: `model=...`
 4. texture files: `texture=FILE` followed by `texture.(...)=FILE`
 5. plain text: `nbt.plain.display.Name=...`
 6. hope infuser
 7. weight
+
+---
+## Extra Details
+
+### Detectable Criteria
+Since there are a lot of exceptions that is best treated individually, only folders meeting certain criteria will be modified. I try to include as much as possible though.
+
+1. If there is a .properties file with base item `bow`, `crossbow`
+2. If there is a .properties file with base item `potion`, `splash_potion`, `lingering_potion` and there are less than or equal to 2 properties files.
+3. If there is only one image file, excluding emissive and only one properties file and that it uses a model from `source_models` folder but not any of its subfolder.
+4. If there are properties with type of armor
