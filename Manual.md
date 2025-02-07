@@ -1,7 +1,7 @@
 # RP Renamer User Manual
 ### Introduction
-This renamer is made for the Monumenta official resourcepack, as some conventions are required for it to work. For what the renamer renames and into what, please check out the `README.md`.
-It will unify some common textures in terms of their file names, so other community projects involving the resourcepack can have an easier time grabbing the texture.
+This renamer is made for the Monumenta official resourcepack. For naming conventions, please check out the `README.md`.
+This project aims to unify some common textures in terms of their file names, so other community projects involving the resourcepack can have an easier time accessing particular textures.
 
 ### Installation
 
