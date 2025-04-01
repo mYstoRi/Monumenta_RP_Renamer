@@ -106,6 +106,18 @@ Rules:
 	No specific rules. (!!)
 
 
+### Folder Structure (WIP)
+For the ease of access for third party apps, the folders are structured more systematically.
+
+For items on the API, folders are sorted by:
+1. Region
+2. Tier
+3. Location
+
+Each layer will have a `misc` category to store everything that is missing that particular label.
+
+Textures that are not on the api is now in a separate folder `nonapi` under `cit`.
+
 ### Folder Naming Scheme: (WIP)
 1. general rule: follow the plain.display.Name nbt tag of the item, converted.
 2. cooldown consumables: ignore the cooldown files and follow the general rule.
@@ -114,13 +126,16 @@ Rules:
 ### Properties:
 The rules of writing properties: (in order)
 
+Everything should always be present unless stated optional
+
 1. properties type: `type=armor`, `type=item`, etc.
 2. base item: `matchItems=BASE_ITEM`
 3. model: `model=...`
 4. texture files: `texture=FILE` followed by `texture.(...)=FILE`
 5. plain text: `nbt.plain.display.Name=...`
-6. hope infuser
-7. weight
+6. hope infuser (optional - if any)
+7. hexed, gui, other criteria
+8. weight
 
 ---
 ## Extra Details

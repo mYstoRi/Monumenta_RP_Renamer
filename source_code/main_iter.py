@@ -36,6 +36,9 @@ def required(entry, ignore_list):
     else:
         return True
 
+def restructure(folder, new_root):
+    # TODO: method to put folder into proper location
+    pass
 
 def readfolder(path, settings):
     # read the folder to determine if it is a texture folder or not.
