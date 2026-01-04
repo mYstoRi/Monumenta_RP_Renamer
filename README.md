@@ -4,10 +4,19 @@ Renaming standards and conversions of the current resource pack. Make sure to re
 user pack link (file larger than 25MB sob)
 https://drive.google.com/drive/folders/1evQ-97FzxabIjdaB4c9_zt329TuD2S7J?usp=sharing
 
+# To Do List of this project
+
+- Workflow of working with the original pack.
+	- How to handle the exceptions? Most of them are single instance and would be best to be handled manually.
+	- How to handle main RP version updates? We don't want to update the manually updated files every time.
+- Discussion about if the pack needs to be formatted from the ground up. This is referring to how the folder structures in the pack are currently formatted.
+	- Other solution could be a massive spreadsheet documenting all the paths of all textures, and that sheet can be used for third party apps to locate the files.
+- Ways to thoroughly test the pack to ensure it is free of errors.
+
 # File Naming Rules
 
 ### Rules that might need more discussing
-1. Replica item files always come without `replica_`, as most of those are in the same folder as the original item.
+1. Replica item texture files always come without `replica_`, as most of those are in the same folder as the original item.
 2. Bows' and crossbows' idle texture is named without `_standby`
 3. Armor icon files have `_icon` and armor models have `_armor`
 4. set armor extra rule: if some of the set items have the exact same plain text, the name would add additional `_[part]` (see t5 scout set)
@@ -92,7 +101,7 @@ Rules:
 	3. `converted_name.properties` idle properties.
 	4. `converted_name_blocking.properties` blocking properties.
 
-8. Alchemist Utensils (WIP)
+8. Alchemist Utensils (WIP but it's mostly good)
 	1. `converted_name_Y.png` image of different pots inside. `Y` can be:
 		1. `empty`
 		2. `quarter`
@@ -134,8 +143,8 @@ Everything should always be present unless stated optional
 4. texture files: `texture=FILE` followed by `texture.(...)=FILE`
 5. plain text: `nbt.plain.display.Name=...`
 6. hope infuser (optional - if any)
-7. hexed, gui, other criteria
-8. weight
+7. hexed, gui, other criteria (optional - if any)
+8. weight (optional - if any)
 
 ---
 ## Extra Details
